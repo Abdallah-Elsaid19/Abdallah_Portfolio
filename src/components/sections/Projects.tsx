@@ -46,7 +46,7 @@ const projects = [
       "Recharts",
     ],
     image: "https://i.ibb.co/7dhgjLrM/i-need-a-logo-for-website-called-rosea.jpg", 
-    liveUrl: "#",
+    liveUrl: "https://roseaflower.netlify.app/",
     githubUrl: "https://github.com/Abdallah-Elsaid19/Rosea",
   },
   {

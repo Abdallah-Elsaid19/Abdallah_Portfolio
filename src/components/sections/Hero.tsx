@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail, ExternalLink } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, ExternalLink, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
+import resume from "../../../assets/Abdallah_Elsaid_CV.pdf";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -90,6 +90,13 @@ const Hero = () => {
                   <Mail className="ml-2 h-4 w-4" />
                 </a>
               </Button>
+
+              <button className="bg-transparent border-2 border-[#FAB719] text-[#FAB719] rounded-xl h-12 px-7 hover:bg-[#FAB719]/10 hover:scale-105 transition-all  duration-300 font-semibold">
+                <a href={resume} download="Abdallah_elsaid_CV.pdf" className="flex items-center"  >
+                  Download CV
+                  <FileText className="ml-2 h-4 w-4" />
+                </a>
+              </button>
             </motion.div>
 
             {/* Social links */}
